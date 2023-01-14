@@ -71,21 +71,21 @@ return 0;
 }
 
 /*
-// licznik wieku katarzyny
+// licznik wieku
 int wiekasi,kol,lata;
 int main()
 {
-cout << "Wprowadz swoj wiek kd chodziles na chlopy" << endl;
+cout << "Wprowadz swoj wiek" << endl;
 cin >> wiekasi;
-cout << "Podaj wiek kolezanik" << endl;
+cout << "Podaj wiek 2 osoby" << endl;
 cin >> kol;
 cout << "Ile teraz masz lat?"<< endl;
 cin >> lata;
 if (wiekasi-kol<0) {
-    cout << "Twoja starsza kolezanka ma " << ((wiekasi - kol) - lata) << " lata";
+    cout << "Twoja starsza osoba ma " << ((wiekasi - kol) - lata) << " lata";
 }
 else {
-cout << "Twoja mlodsza kolezanka ma " << ((wiekasi - kol) - lata) << " lata";
+cout << "Twoja mlodsza osoba ma " << ((wiekasi - kol) - lata) << " lata";
 }
 return 0;
 }
